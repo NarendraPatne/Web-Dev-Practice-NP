@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        height: 100px;
+        width: 200px;
+        /* animation-name:fontAn;
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 100ms;
+            animation-iteration-count: infinite;
+            animation-direction:normal; */
+        animation: fontAn 3s ease-in-out 100ms normal infinite;
+        text-align: center;
+        border: 2px solid black;
+      }
+      .bb{
+        width: 100px;
+        height: 100px;
+        background-color: azure;
+        border: 2px solid black;
+        animation: an2 3s ease-in-out 0ms normal infinite;
+      }
+      @keyframes an2 {
+        0%{
+        background-color: aliceblue;
+        width: 100px;
+          height: 100px;
+        }
+        50%{
+        background-color: blue;
+        width: 150px;
+          height: 150px;
+        }
+        100%{
+        background-color: red;
+        width: 200px;
+          height: 300px;
+        }
+      }
+      @keyframes fontAn {
+        from {
+          font-size: 20px;
+          border-radius: 2px;
+          background-color: aquamarine;
+        }
+        to {
+          font-size: 40px;
+          background-color: blueviolet;
+          border-radius: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Animation in CSS</h2>
+    <div class="box">Hello</div>
+    <div class="bb"></div>
+  </body>
+</html>

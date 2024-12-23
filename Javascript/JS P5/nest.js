@@ -1,0 +1,22 @@
+const classInfo={
+    aman:{
+        id:1,
+        grade:"A",
+        city:"X"
+    },
+    naman:{
+        id:2,
+        grade:"b",
+        city:"Y"
+    },
+    bhraman:{
+        id:2,
+    grade:"b",
+    city:"Y"
+    }
+};
+console.log(classInfo.aman.grade);
+console.log(classInfo.naman.id);
+console.log(classInfo.bhraman.city);
+classInfo.bhraman.city="z";
+console.log(classInfo.bhraman);

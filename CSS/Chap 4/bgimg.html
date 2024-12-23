@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .x{
+            margin-top: 50px;
+            margin-left: 50px;
+            width: 200px;
+            height: 120px;
+            background-image: url("peak.jpg");
+            background-size: contain;
+            border: 4px solid black; 
+            border-radius: 5px ;
+            display: inline-block;
+            box-shadow: 4px 4px 8px rgb(201, 104, 24);
+        }
+        .x:hover{
+            box-shadow: 6px 6px 8px rgb(201, 104, 24);
+        }
+        .y{
+            margin-top: 90px;
+            color:white;
+        }
+        .card{
+            width: 200px;
+            height: 250px;
+            text-align: center;
+            border: 3px solid black;
+            border-radius: 8px;
+            box-shadow: 4px 4px 8px grey;
+            transition: 0.1s;
+        }
+        .card:hover{
+            box-shadow: 8px 8px 10px grey;
+        }
+        img{
+            width: 100%;
+            height: 150px;
+            /* margin: 5px; */
+        }
+        h1{
+            margin-bottom: 5px;
+        }
+        #con{
+            align-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="x">
+        <h3 class="y">Khabib Nurmagomedov</h3>
+    </div>
+    <div class="x">
+        <h3 class="y">Khabib Nurmagomedov</h3>
+    </div>
+    <hr>
+    <div id="con">
+        <div class="card">
+            <img src="peak.jpg" alt="">
+            <h1>Khabib</h1>
+            <h4 style="margin-top: 5px;">The Eagle</h4>
+        </div>
+    </div>
+</body>
+</html>

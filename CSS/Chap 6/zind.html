@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .boc{
+            position: relative;
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            border: 2px solid black;
+            z-index:1;
+        }
+        #x{
+            position: absolute;
+            top: 40px;
+            left: 50px;
+            background-color: blue;
+            z-index: -2;
+        }
+    </style>
+</head>
+<body>
+    <div class="boc"></div>
+    <div class="boc" id="x"></div>
+</body>
+</html>

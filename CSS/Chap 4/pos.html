@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        #st{
+            width: 100px;
+            height:100px;
+            background-color: aqua;
+            border: 3px solid black;
+            position:static ;
+            display: inline-block;
+            top: 400px;
+            left:300px;
+        }
+        #re{
+            width: 100px;
+            height:100px;
+            background-color: aqua;
+            border: 3px solid black;
+            position:relative;
+            top: 100px;
+            left:50px;
+            display: inline-block;
+        }
+        #ab{
+            width: 100px;
+            height:100px;
+            background-color: rgb(255, 98, 0);
+            border: 3px solid black;
+            position:absolute;
+            top: 100px;
+            left:300px;
+        }
+        #t{
+            width: 100px;
+            height:100px;
+            background-color: yellow;
+            border: 3px solid black;   
+            display: inline-block;
+        }
+        #fx{
+            width: 100px;
+            height:100px;
+            background-color: rgb(255, 98, 0);
+            border: 3px solid black;
+            position:fixed;
+            top: 230px;
+            left:300px;
+        }
+    </style>
+</head>
+<body>
+    <Section>
+        <h1>Static Position</h1>
+        <div id="t"></div>
+        <div id="st"></div>
+    </Section>
+    <Section>
+        <h1>Static Position</h1>
+        <div id="t"></div>
+        <div id="st"></div>
+    </Section>
+    <Section>
+        <h1>Static Position</h1>
+        <div id="t"></div>
+        <div id="st"></div>
+    </Section>
+    <Section>
+        <h1>Relative Position</h1>
+        <div id="t"></div>
+        <div id="re">Relative Box</div>
+        <div id="t"></div>
+    </Section>
+    <Section>
+        <h1>Absolute Position</h1>
+        <div id="t"></div>
+        <div id="ab"> Absolute Box</div>
+    </Section>
+    <Section>
+        <h1>Fixed Position</h1>
+        <div id="t"></div>
+        <div id="fx"> Fixed Box</div>
+    </Section>
+</body>
+</html>

@@ -1,0 +1,39 @@
+h1{
+    color: orange;
+    text-align: center;
+    border: solid;
+    width:auto;
+    font-family: Arial;
+    letter-spacing: 5px;
+}
+h2{
+    color:aqua;
+    background-color: white;
+   text-align: center;
+   text-decoration:black wavy overline;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{
+    /* background-color: black; in hex #000000 or #000*/
+    /* background-color: #;  */
+    color: rgb(250, 25, 255);
+    border: solid;
+    font-weight: 900;
+    text-align: center;
+    /* text-decoration: double line-through; */
+    
+    line-height: normal;
+}
+button{
+    /* background-color: white; in hex #ffffff or  #fff */
+    background-color: #fff;
+    color:rgb(0, 0, 0);
+}
+#11{
+    color: brown;
+    background-color: azure;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+}

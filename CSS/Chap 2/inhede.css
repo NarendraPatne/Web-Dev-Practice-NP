@@ -1,0 +1,14 @@
+div{
+    background-color:burlywood;
+}
+/* form{
+    background-color:beige;
+} */
+input,button{
+    background-color: inherit;
+}
+button:hover,input:hover{
+    background-color: coral;
+    color:beige;
+}
+ 

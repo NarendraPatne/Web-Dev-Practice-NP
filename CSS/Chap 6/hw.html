@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .gridd {
+        width: 100vw;
+        height: 100vh;
+        display:inline-grid;
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows:repeat(12,1fr) ;
+        grid-gap: 5px;
+    }
+    body{
+        /* background-color: aqua; */
+        text-align: center;
+    }
+    .item{
+          background-color: pink;
+            border: solid 1px black;
+      }
+      .head{
+        /* grid-row-start: 1; */
+        grid-column-start: 1;
+        grid-column-end: 13;
+      }
+      .side{
+        grid-row: 2/12;
+        grid-column: 1/5;
+      }
+      .nav{
+          grid-row: 2/3;
+          grid-column:5/9 ;
+        }
+        .ad{
+            grid-row:2/12;
+            grid-column: 9/13;
+        }
+        .main{
+            grid-row: 3 /12;
+            grid-column: 5/9;
+        }
+        .foot{
+            grid-column: 1/13;
+        }
+        @media (max-width:720px) {
+            .nav{
+                grid-row: 2/3;
+                grid-column:1/13 ;
+            }
+            .side{
+                grid-row: 3/12;
+                grid-column: 1/4;
+            }
+            .main{
+                grid-row: 3 /12;
+                grid-column: 4/13;
+            }
+            .ad{
+                grid-row:12/13;
+                grid-column: 1/4;
+            }
+            .foot{
+                grid-column: 4/13;
+            }
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div class="gridd">
+      <div class="item head">Header</div>
+      <div class="item side">Sidebar</div>
+      <div class="item nav">Navigation</div>
+      <div class="item ad">Ads</div>
+      <div class="item main">Main</div>
+      <div class="item foot">Footer</div>
+    </div>
+  </body>
+</html>

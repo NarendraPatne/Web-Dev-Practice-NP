@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        border-radius: 10px;
+      }
+      .Container {
+        width: 600px;
+        height: 300px;
+        border: 4px solid black;
+        display: inline-block;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        /*justify-content: space-between; */
+      }
+
+      .Container1 {
+        width: 40%;
+        height: 65px;
+        border: 4px solid black;
+        /* margin-left: 450px;/ */
+        margin-top: 20px;
+        display: inline-block;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+      }
+      .Container2 {
+        width: 40%;
+        height: 125px;
+        border: 4px solid black;
+        /* margin-left: 450px; */
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+      .c1 {
+        width: 30%;
+        height: 50px;
+        text-align: center;
+        font-size: 2em;
+        font-weight: bolder;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin: 5px 0 0 5px;
+      }
+      .Container1 div {
+        width: 10%;
+      }
+      .c {
+        height: 50px;
+        text-align: center;
+        font-size: 2em;
+        font-weight: bolder;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin: 5px 0 0 5px;
+      }
+      h2 {
+        text-align: center;
+      }
+      .Container div {
+        width: 98%;
+        height: 13%;
+      }
+      .x {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Flexbox Playground</h2>
+    <div class="x">
+      <div class="Container">
+        <div class="c" style="background-color: brown">A</div>
+        <div class="c" style="background-color: aqua">B</div>
+        <div class="c" style="background-color: aquamarine">C</div>
+        <div class="c" style="background-color: blue">D</div>
+        <div class="c" style="background-color: chocolate">E</div>
+        <div class="c" style="background-color: chartreuse">F</div>
+      </div>
+      <div class="Container1">
+        <div class="c" style="background-color: brown">A</div>
+        <div class="c" style="background-color: aqua">B</div>
+        <div class="c" style="background-color: aquamarine">C</div>
+        <div class="c" style="background-color: blue">D</div>
+        <div class="c" style="background-color: chocolate">E</div>
+        <div class="c" style="background-color: chartreuse">F</div>
+      </div>
+      <div class="Container2">
+        <div class="c1" style="background-color: brown">A</div>
+        <div class="c1" style="background-color: aqua">B</div>
+        <div class="c1" style="background-color: aquamarine">C</div>
+        <div class="c1" style="background-color: blue">D</div>
+        <div class="c1" style="background-color: chocolate">E</div>
+        <div class="c1" style="background-color: chartreuse">F</div>
+      </div>
+    </div>
+  </body>
+</html>

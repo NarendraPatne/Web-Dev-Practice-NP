@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a,.b,.c{
+            width: 300px;
+            height:50px;
+            text-align: center;
+            border: 2px solid black;
+            margin:10px;
+        }
+        div:nth-of-type(2n+1){
+            background-color:chartreuse;
+        }
+        div:nth-of-type(2n){
+            background-color:aqua;
+        }
+        .a{
+            transition: 1s;
+        }
+        .a:hover{
+            transform: rotate(180deg);
+            
+        }
+        .b{
+            transition:1s;
+        }
+        .b:hover{
+            transform: scale(1.2);
+        }
+        .c{
+            transition:1s;
+        }
+        .c:hover{
+            transform: translateX(20px);
+        }
+        #one{
+            transform:skew(-30deg);
+        }
+    </style>
+</head>
+<body>
+    <section>
+    <div class="a" id="one">1</div>
+    <div class="a" id="two">2</div>
+    <div class="a" id="three">3</div>
+    <div class="a" id="four">4</div>
+    <div class="a" id="five">5</div>
+    </section>
+    <hr>
+    <section>
+    <div class="b" id="one">1</div>
+    <div class="b" id="two">2</div>
+    <div class="b" id="three">3</div>
+    <div class="b" id="four">4</div>
+    <div class="b" id="five">5</div>
+    </section>
+    <hr>
+    <section>
+        <div class="c">1</div>
+        <div class="c">2</div>
+        <div class="c">3</div>
+        <div class="c">4</div>
+        <div class="c">5</div>
+    </section>
+</body>
+</html>

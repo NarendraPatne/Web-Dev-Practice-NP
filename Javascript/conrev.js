@@ -1,0 +1,14 @@
+let arr1=["mango","strawberry","apple","guava","grapes"];
+let arr2=["earth","mars","mercury","venus","saturn"];
+console.log(arr1);
+console.log(arr2);
+console.log("Concat:",arr1.concat(arr2));
+console.log(arr1);
+console.log(arr2);
+console.log(arr2.reverse());
+console.log("------------------------------------------");
+let colors=["yellow","red","black","white","orange"];
+console.log(colors.slice());
+console.log(colors.slice(3));
+console.log(colors.slice(-3));
+console.log(colors.slice(2,4));     
